@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="relative container mx-auto p-6">
+    <nav class="sticky top-0 container mx-auto p-6 bg-lightGray">
       <!-- Flex Container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -18,10 +18,12 @@
         </div>
         <!-- Menu Items -->
         <div class="hidden md:flex space-x-6">
-          <a href="#" class="hover:text-gray">Pizza</a>
-          <a href="#" class="hover:text-gray">Subs</a>
-          <a href="#" class="hover:text-gray">Pasta</a>
-          <a href="#" class="hover:text-gray">Sides</a>
+          <a href="#apps" class="hover:text-gray">Appetizers</a>
+          <a href="#pizza" class="hover:text-gray">Pizza</a>
+          <a href="#subs" class="hover:text-gray">Subs</a>
+          <a href="#sals" class="hover:text-gray">Salads</a>
+          <a href="#dins" class="hover:text-gray">Dinners</a>
+          <a href="#bevs" class="hover:text-gray">Beverages & Desserts</a>
         </div>
         <!-- Button -->
         <a
@@ -37,12 +39,18 @@
         <!-- Flex Container -->
         <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
             <!-- Left Item -->
-            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <div class="flex flex-col mb-32 space-y-5 md:w-1/2">
                 <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">
                     Welcome to Boli's Pizza!
                 </h1>
                 <p class="max-w-sm text-center md:text-left">
-                  Check out our impressive selection of Pizza, Subs, Pastas, & More!  
+                  700 State Rd, Plymouth MA 02360
+                </p>
+                <p class="max-w-sm text-center md:text-left">
+                    11 AM - 10 PM Sun-Sat
+                </p>
+                <p class="max-w-sm text-center md:text-left">
+                    (508) 224-3671
                 </p>
                 <div class="flex justify-center md:justify-left">
                     <a
@@ -54,9 +62,138 @@
             </div>
             <!-- Image -->
             <div class="md:w-1/2">
-                <img src="img/hero.jpg" alt="gfdfg" class="rounded-lg">
+                <img src="img/hero.jpg" alt="gfdfg" class="rounded-lg h-96">
             </div>
         </div>
     </section>
+    <!-- Appetizers -->
+    <section id="apps">
+        <div class="container px-6 mx-auto">
+            <h1 class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left">Appetizers</h1>
+            <div class="grid grid-cols-4 mt-5">
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Mozzarella Sticks</span>
+                  <p>8 pc</p>
+                  <p>$7.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Chicken Fingers</span>
+                  <p>8 pc</p>
+                  <p>$7.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Buffalo Wings</span>
+                  <p>8 pc</p>
+                  <p>$8.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Wing Dings</span>
+                  <p>8 pc</p>
+                  <p>$7.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Garlic Bread</span>
+                  <p>$7.99</p>
+                  <p><span class="italic">with cheese</span> $8.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Fries</span>
+                    <p><span class="italic">Small</span> $3.99</p>
+                    <p><span class="italic">Large</span> $4.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Onion Rings</span>
+                    <p>8 pc</p>
+                    <p>$7.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Jalepeño Poppers</span>
+                    <p>8 pc</p>
+                    <p>$7.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PIzzas -->
+    <section id="pizza">
+        <div class="container px-6 mx-auto">
+            <h1 class="max-w-md text-size 4xl mt-5 font-bold text-center md:text-5xl md:text-left">Pizza</h1>
+            <div class="grid grid-cols-3 mt-5">
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Alfresco Pizza</span>
+                  <p class="italic text-gray">Fresh mozzarella, sliced tomato, and fresh basil on top of our thin crust piza, drizzled with our baslamic reduction.</p>
+                  <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                  <span class="font-bold">Chicken Caesar Pizza</span>
+                  <p class="italic text-gray">Grilled chicken, mozzarella and parmesan cheese, baked, then topped with our famous Caesar salad.</p>
+                  <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                </div>
+                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Shrimp Scampi Pizza</span>
+                    <p class="italic text-gray">Shrimp, garlic, chopped toamtes, scallions and parmesan cheese. (No Red Sauce!)</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Taco Pizza</span>
+                    <p class="italic text-gray">Taco seasoned ground beef, chopped tomatoes, shredded lettuce, scallions, cheddar cheese, sour cream, and a salsa tomato sauce blend.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Greek Pizza</span>
+                    <p class="italic text-gray">Fresh tomatoes, feta cheese, black olives.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Veggie Pizza</span>
+                    <p class="italic text-gray">Onions, peppers, mushrooms, black olives and broccoli.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Hawaiian Pizza</span>
+                    <p class="italic text-gray">Pineapple and ham.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Pesto Madness Pizza</span>
+                    <p class="italic text-gray">Pesto, fresh tomato, and bacon.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">California Chicken Pizza</span>
+                    <p class="italic text-gray">Grilled chicken, red onions, and fresh garlic.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
+                    <span class="font-bold">Buffalo Chicken Pizza</span>
+                    <p class="italic text-gray">Buffalo sauce and either grilled or fried chicken.</p>
+                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Subs</h1>
+        </div>
+    </section>
+    <section>
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Salads</h1>
+        </div>
+    </section>
+    <section>
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Dinners</h1>
+        </div>
+    </section>
+    <section>
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Beverages & Desserts</h1>
+        </div>
+    </section>
+    <footer class="mx-auto justify-center">
+        Boli's Pizza 
+    </footer>
   </body>
 </html>
