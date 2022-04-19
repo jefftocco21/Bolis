@@ -9,18 +9,19 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="sticky top-0 container mx-auto p-6 bg-lightGray">
+    <nav class="sticky top-0 container mx-auto p-6 bg-lightGray" id="#mainNav">
       <!-- Flex Container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <div>Boli's Pizza</div>
+          <div><a href="#page-top">Boli's Pizza</a></div>
         </div>
         <!-- Menu Items -->
         <div class="hidden md:flex space-x-6">
           <a href="#apps" class="hover:text-gray">Appetizers</a>
           <a href="#pizza" class="hover:text-gray">Pizza</a>
           <a href="#subs" class="hover:text-gray">Subs</a>
+          <a href="#wraps" class="hover:text-gray">Wraps</a>
           <a href="#sals" class="hover:text-gray">Salads</a>
           <a href="#dins" class="hover:text-gray">Dinners</a>
           <a href="#bevs" class="hover:text-gray">Beverages & Desserts</a>
@@ -28,172 +29,598 @@
         <!-- Button -->
         <a
           href=""
-          class="hidden md:block p-3 px-6 pt-2 text-white bg-gray rounded-full hover:bg-lightGray"
-          >Specialties</a
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-gray"
+          >Thank You For Patronage!</a
         >
       </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="hero">
-        <!-- Flex Container -->
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
-            <!-- Left Item -->
-            <div class="flex flex-col mb-32 space-y-5 md:w-1/2">
-                <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">
-                    Welcome to Boli's Pizza!
-                </h1>
-                <p class="max-w-sm text-center md:text-left">
-                  700 State Rd, Plymouth MA 02360
-                </p>
-                <p class="max-w-sm text-center md:text-left">
-                    11 AM - 10 PM Sun-Sat
-                </p>
-                <p class="max-w-sm text-center md:text-left">
-                    (508) 224-3671
-                </p>
-                <div class="flex justify-center md:justify-left">
-                    <a
-                    href=""
-                    class="p-3 px-6 pt-2 text-white bg-gray rounded-full hover:bg-lightGray"
-                    >Specialties</a
-                  >
-                </div>
-            </div>
-            <!-- Image -->
-            <div class="md:w-1/2">
-                <img src="img/hero.jpg" alt="gfdfg" class="rounded-lg h-96">
-            </div>
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+      >
+        <!-- Left Item -->
+        <div class="flex flex-col mb-32 space-y-5 md:w-1/2">
+          <h1
+            class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left"
+          >
+            Welcome to Boli's Pizza!
+          </h1>
+          <p class="max-w-sm text-center md:text-left">
+            Location: 700 State Rd, Plymouth MA 02360
+          </p>
+          <p class="max-w-sm text-center md:text-left">Hours: 11AM-10PM, Sun-Sat</p>
+          <p class="max-w-sm text-center md:text-left">Phone: (508) 224-3671</p>
+          <p class="max-w-sm text-center md:text-left">Pick Up • Dine In • Delivery</p>
+          <p class="max-w-sm text-center md:text-left">$1.00 Delivery Charge/$10.00 Minimum</p>
+          <div class="flex justify-center md:justify-left">
+            <a
+              href=""
+              class="p-3 px-6 pt-2 text-white bg-gray rounded-full hover:bg-lightGray"
+              >Specialties</a
+            >
+          </div>
         </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img src="img/hero.jpg" alt="gfdfg" class="rounded-lg h-96" />
+        </div>
+      </div>
     </section>
     <!-- Appetizers -->
     <section id="apps">
-        <div class="container px-6 mx-auto">
-            <h1 class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left">Appetizers</h1>
-            <div class="grid grid-cols-4 mt-5">
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Mozzarella Sticks</span>
-                  <p>8 pc</p>
-                  <p>$7.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Chicken Fingers</span>
-                  <p>8 pc</p>
-                  <p>$7.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Buffalo Wings</span>
-                  <p>8 pc</p>
-                  <p>$8.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Wing Dings</span>
-                  <p>8 pc</p>
-                  <p>$7.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Garlic Bread</span>
-                  <p>$7.99</p>
-                  <p><span class="italic">with cheese</span> $8.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Fries</span>
-                    <p><span class="italic">Small</span> $3.99</p>
-                    <p><span class="italic">Large</span> $4.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Onion Rings</span>
-                    <p>8 pc</p>
-                    <p>$7.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Jalepeño Poppers</span>
-                    <p>8 pc</p>
-                    <p>$7.99</p>
-                </div>
-            </div>
+      <div class="container px-6 mx-auto">
+        <h1
+          class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Appetizers
+        </h1>
+        <div class="grid grid-cols-4">
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Mozzarella Sticks</span>
+            <p>8 pc</p>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Fingers</span>
+            <p>8 pc</p>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Buffalo Wings</span>
+            <p>8 pc</p>
+            <p>$8.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Wing Dings</span>
+            <p>8 pc</p>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Garlic Bread</span>
+            <p>$7.99</p>
+            <p><span class="italic">with cheese</span> $8.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Fries</span>
+            <p><span class="italic">Small</span> $3.99</p>
+            <p><span class="italic">Large</span> $4.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Onion Rings</span>
+            <p>8 pc</p>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Jalepeño Poppers</span>
+            <p>8 pc</p>
+            <p>$7.99</p>
+          </div>
         </div>
+      </div>
     </section>
     <!-- PIzzas -->
-    <section id="pizza">
-        <div class="container px-6 mx-auto">
-            <h1 class="max-w-md text-size 4xl mt-5 font-bold text-center md:text-5xl md:text-left">Pizza</h1>
-            <div class="grid grid-cols-3 mt-5">
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Alfresco Pizza</span>
-                  <p class="italic text-gray">Fresh mozzarella, sliced tomato, and fresh basil on top of our thin crust piza, drizzled with our baslamic reduction.</p>
-                  <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                  <span class="font-bold">Chicken Caesar Pizza</span>
-                  <p class="italic text-gray">Grilled chicken, mozzarella and parmesan cheese, baked, then topped with our famous Caesar salad.</p>
-                  <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                </div>
-                <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Shrimp Scampi Pizza</span>
-                    <p class="italic text-gray">Shrimp, garlic, chopped toamtes, scallions and parmesan cheese. (No Red Sauce!)</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Taco Pizza</span>
-                    <p class="italic text-gray">Taco seasoned ground beef, chopped tomatoes, shredded lettuce, scallions, cheddar cheese, sour cream, and a salsa tomato sauce blend.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Greek Pizza</span>
-                    <p class="italic text-gray">Fresh tomatoes, feta cheese, black olives.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Veggie Pizza</span>
-                    <p class="italic text-gray">Onions, peppers, mushrooms, black olives and broccoli.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Hawaiian Pizza</span>
-                    <p class="italic text-gray">Pineapple and ham.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Pesto Madness Pizza</span>
-                    <p class="italic text-gray">Pesto, fresh tomato, and bacon.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">California Chicken Pizza</span>
-                    <p class="italic text-gray">Grilled chicken, red onions, and fresh garlic.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-                  <div class="mt-5 rounded p-3 hover:border border-rose-400 mx-2">
-                    <span class="font-bold">Buffalo Chicken Pizza</span>
-                    <p class="italic text-gray">Buffalo sauce and either grilled or fried chicken.</p>
-                    <p><span class="italic">Small</span> $7.99 <span class="italic">Large</span> $8.99</p>
-                  </div>
-            </div>
+    <section id="pizza" class="target">
+      <div class="container px-6 mx-auto mt-4">
+        <h1
+          class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Specialty Pizzas
+        </h1>
+        <div class="grid grid-cols-3  ">
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Alfresco Pizza</span>
+            <p class="italic text-gray">
+              Fresh mozzarella, sliced tomato, and fresh basil on top of our
+              thin crust piza, drizzled with our baslamic reduction.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Caesar Pizza</span>
+            <p class="italic text-gray">
+              Grilled chicken, mozzarella and parmesan cheese, baked, then
+              topped with our famous Caesar salad.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Shrimp Scampi Pizza</span>
+            <p class="italic text-gray">
+              Shrimp, garlic, chopped toamtes, scallions and parmesan cheese.
+              (No Red Sauce!)
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Taco Pizza</span>
+            <p class="italic text-gray">
+              Taco seasoned ground beef, chopped tomatoes, shredded lettuce,
+              scallions, cheddar cheese, sour cream, and a salsa tomato sauce
+              blend.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Greek Pizza</span>
+            <p class="italic text-gray">
+              Fresh tomatoes, feta cheese, black olives.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Veggie Pizza</span>
+            <p class="italic text-gray">
+              Onions, peppers, mushrooms, black olives and broccoli.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Hawaiian Pizza</span>
+            <p class="italic text-gray">Pineapple and ham.</p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Pesto Madness Pizza</span>
+            <p class="italic text-gray">Pesto, fresh tomato, and bacon.</p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">California Chicken Pizza</span>
+            <p class="italic text-gray">
+              Grilled chicken, red onions, and fresh garlic.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Buffalo Chicken Pizza</span>
+            <p class="italic text-gray">
+              Buffalo sauce and either grilled or fried chicken.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Bacon Ranch Pizza</span>
+            <p class="italic text-gray">
+              Ranch base, bacon, and either grilled or fried chicken.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Broccoli Alfredo Pizza</span>
+            <p class="italic text-gray">
+              Alfredo sauce, broccoli and either grilled or fried chicken.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Buffalo Chicken Pizza</span>
+            <p class="italic text-gray">
+              Buffalo sauce and either grilled or fried chicken.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Spinach Deluxe Pizza</span>
+            <p class="italic text-gray">
+              Spinach, feta cheese, tomato, and bacon.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Macho Pizza Pizza</span>
+            <p class="italic text-gray">
+              Buffalo sauce, banana peppers, jalepeños and either grilled or
+              fried chicken.
+            </p>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+    <section id="subs">
+      <div class="container px-6 mx-auto">
+        <h1
+          class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Subs
+        </h1>
+        <p class="pt-2 italic">
+          All subs are made to order, extra toppings may incur an additional
+          charge. Wraps or pockets are available for the price of a large.
+        </p>
+        <div class="grid grid-cols-5 mt-4">
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Italian</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Roast Beef</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Ham & Cheese</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Salad</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Tuna Salad</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Reuben</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Turkey Reuben</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">BLT</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Cutlet</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Salami</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Hamburger</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Cheeseburger</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Bacon Burger</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Feta Burger</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Meatball</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Parm</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Eggplant Parm</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Pastrami</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Sausage</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="mt-1 rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Steak & Cheese</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+            <p class="italic text-gray">Onions/Peppers/Mushrooms $.50 each</p>
+          </div>
+          <div class="mt-1 rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Veggie Stir Fry</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="mt-1 rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Veggie Stir Fry</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="mt-1 rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Pepper & Egg</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+          <div class="mt-1 rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Ham & Egg</span>
+            <p>
+              <span class="italic">Small</span> $7.99
+              <span class="italic">Large</span> $8.99
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="wraps"
+      <div class="container px-6 mx-auto mt-5">
+        <h1
+          class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Wraps
+        </h1>
+        <div class="grid grid-cols-4">
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Crispy Chicken Ranch</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Turkey Club</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Roast Beef</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Greek Salad</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Caesar Salad</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Buffalo Chicken</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Burrito</span>
+            <p class="italic text-gray">
+              Lettuce, tomato, rice, beans, salsa/sour cream mix. Add chicken or beef for $2.00
+            </p>
+            <p>$7.99</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sals"
+      <div class="container px-6 mx-auto mt-5">
+        <h1
+          class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Salads
+        </h1>
+        <p class="pt-2 italic">
+          All salads are served with your choice of dressing, and a pita pocket.
+          Extra dressing/toppings/pitas may incur an additional charge.
+        </p>
+        <div class="grid grid-cols-4">
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Antipasto</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Garden</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Greek</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Caesar</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Caesar</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Grilled Chicken</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Steak Tip</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chef</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Salad</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Tuna Salad</span>
+            <p>$7.99</p>
+          </div>
+          <div class="  rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Seafood Salad</span>
+            <p>$7.99</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
-            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Subs</h1>
+      <div class="container px-6 mx-auto mt-4">
+        <h1
+          class="max-w-md text-size 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Dinners
+        </h1>
+        <p class="pt-2 italic">
+          All dinners come with your choice of rice pilaf or french fries and a side salad.
+        </p>
+        <div class="grid grid-cols-6  ">
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Chicken Finger Dinner</span>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Buffalo Finger Dinner</span>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Teriyaki Chicken Dinner</span>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Steak Tip Dinner</span>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Hamburger Club Dinner</span>
+            <p>$7.99</p>
+          </div>
+          <div class="rounded p-3 hover:border border-rose-400 mx-2">
+            <span class="font-bold">Cheeseburger Club Dinner</span>
+            <p>$7.99</p>
+          </div>
         </div>
+      </div>
     </section>
     <section>
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
-            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Salads</h1>
-        </div>
+      <div
+        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+      >
+        <h1
+          class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left"
+        >
+          Beverages & Desserts
+        </h1>
+      </div>
     </section>
-    <section>
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
-            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Dinners</h1>
-        </div>
-    </section>
-    <section>
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
-            <h1 class="max-w-md text-dize 4xl font-bold text-center md:text-5xl md:text-left">Beverages & Desserts</h1>
-        </div>
-    </section>
-    <footer class="mx-auto justify-center">
-        Boli's Pizza 
-    </footer>
+    <footer class="mx-auto justify-center">Boli's Pizza</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
