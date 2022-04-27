@@ -8,3 +8,10 @@ btn.addEventListener('click', () => {
     nav.classList.toggle('flex')
     nav.classList.toggle('hidden')
 })
+
+window.addEventListener('mouse', () => {
+    btn = document.getElementById('menu-btn')
+    if(event.target != btn) {
+        
+    }
+})
