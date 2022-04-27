@@ -11,7 +11,8 @@ module.exports = {
       colors: {
         brightRed: 'hsl(12, 88%, 59%)',
         gray: '#808080',
-        lightGray: '#D3D3D3'
+        lightGray: '#D3D3D3',
+        lightRose: '#EF4444'
       }
     },
   },
